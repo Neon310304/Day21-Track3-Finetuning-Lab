@@ -69,7 +69,9 @@ merged.save_pretrained(out); tok.save_pretrained(out)
 report.write_json({"before_merge": before, "after_merge": after, "delta": delta,
                    "tolerance": TOL, "n": len(target)},
                   "merge_check.json", results_dir=ROOT / "results")
-del merged; generate.free_memory()
+report.write_json({"before_merge": preds, "after_merge": preds_m},
+                  "merge_predictions.json", results_dir=ROOT / "results")
+del model, merged; generate.free_memory()
 
 # %% [markdown]
 # ## 3. Một base, nhiều adapter — hoán đổi theo request
@@ -90,10 +92,15 @@ for extra in ("attn_only", "qlora"):
 
 print("adapter đang nạp:", available)
 ticket = target[0]["input"]
+swap_predictions = {}
 for name in available:
     model.set_adapter(name)
     out, _ = generate.generate_batch(model, tok, [ticket], system=generate.NAIVE_PROMPT)
+    swap_predictions[name] = out[0]
     print(f"\n[{name}] -> {out[0][:140]}")
+report.write_json({"base_loaded_once": True, "base_quantization": "bf16",
+                   "adapters": available, "ticket": ticket, "predictions": swap_predictions},
+                  "hot_swap.json", results_dir=ROOT / "results")
 
 # %% [markdown]
 # ## ✅ Checkpoint NB6

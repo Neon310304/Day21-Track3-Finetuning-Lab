@@ -50,6 +50,7 @@ print("baseline (b) target =", round(base_b.target, 3), "— đây là mốc ph�
 # %%
 from peft import PeftModel
 
+prediction_records = {}
 
 def score_adapter(adapter_dir: pathlib.Path, system_prompt: str | None, *,
                   load_in_4bit: bool = False, with_regression: bool = True,
@@ -83,6 +84,7 @@ def score_adapter(adapter_dir: pathlib.Path, system_prompt: str | None, *,
     # mode AND you trained on traces; scored anyway so the number is on the record.
     trace = sum(ev.valid_reasoning_trace(p) for p in preds) / len(preds)
 
+    prediction_records[label] = {"target": preds, "regression": rpreds}
     del model
     generate.free_memory()
     s = ev.GroupScores(target=tgt, regression=reg, format=fmt, latency_ms=lat,
@@ -172,6 +174,7 @@ for key in CONTRAST_KEYS:
 print()
 print(report.markdown_table(autopsy, ["run", "target", "format", "latency_ms", "n"]))
 report.write_json(autopsy, "autopsy.json", results_dir=ROOT / "results")
+report.write_json(prediction_records, "evaluation_predictions.json", results_dir=ROOT / "results")
 
 # %% [markdown]
 # ### Bảng này mới là câu trả lời cho ba câu hỏi ở cuối NB4

@@ -1,0 +1,86 @@
+{
+  "started_utc": "2026-10-07T06:37:41.276529+00:00",
+  "settings": {
+    "tier": "LAPTOP",
+    "model": "Qwen/Qwen3.5-0.8B",
+    "max_length": 1024,
+    "per_device_batch": 1,
+    "grad_accum": 8,
+    "epochs": 2.0,
+    "mask_mode": "assistant-only",
+    "naive_prompt_sha256": "7ccc19ec695fa31e97b407b066e72554ed834507fc2c176e766a010bb44a8b4a",
+    "optimized_prompt_sha256": "719e74d3b62320539bde0a5645eb20fc989d86ce2e5b4257d520f43ffe7caead"
+  },
+  "source_sha256": {
+    "train_seed.jsonl": "2a58fe45d7315da0fb2934495cb7ec6717254f6df95d9560d748b10aa45409e3",
+    "eval_target.jsonl": "2991050fefb848c8bf3fdbc021badea9500f758d90717d7a94ae2f9b09b8915e",
+    "eval_regression.jsonl": "9c6ba90ea86e28fbc7102bf4cc4cb1e23c4668cf95bfcae55c3c114d34dc133b"
+  },
+  "device": {
+    "device": "cuda",
+    "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "bf16": true,
+    "fp16": true,
+    "capability": "8.6",
+    "vram_gb": 4.0
+  },
+  "python": "3.12.15 (main, Oct  6 2026, 02:02:22) [GCC 14.2.0]",
+  "stages": [
+    {
+      "stage": "nb1",
+      "started_utc": "2026-10-07T06:37:45.558288+00:00",
+      "script_sha256": "d5cb0d11c619bb5cd60263962f1735a5db00245bbcfe1fae6fd17b40b2024078",
+      "finished_utc": "2026-10-07T06:37:57.925980+00:00",
+      "exit_code": 0,
+      "seconds": 12.359468898999921,
+      "log": "submission/evidence/nb1-1.log"
+    },
+    {
+      "stage": "nb2",
+      "started_utc": "2026-10-07T06:37:57.929925+00:00",
+      "script_sha256": "1b470c9e31c554bbcce310d3d1fe41dcb86e8aa884e6b59dd8f4b118509c9255",
+      "finished_utc": "2026-10-07T06:47:01.982954+00:00",
+      "exit_code": 0,
+      "seconds": 544.0812525430001,
+      "log": "submission/evidence/nb2-2.log"
+    },
+    {
+      "stage": "nb3",
+      "started_utc": "2026-10-07T06:47:49.836110+00:00",
+      "script_sha256": "4b0b593e822ff073ea41be5ee7ffa7a39b3aa15a2bba18f4d34fe10c1a902f41",
+      "finished_utc": "2026-10-07T07:04:22.659751+00:00",
+      "exit_code": 0,
+      "seconds": 992.8853218980003,
+      "log": "submission/evidence/nb3-3.log"
+    },
+    {
+      "stage": "nb4",
+      "started_utc": "2026-10-07T07:04:31.130149+00:00",
+      "script_sha256": "d7d73108a1bd181b1d8bb823879661232754cee3bf9a623206faf9d255843ef6",
+      "finished_utc": "2026-10-07T07:53:03.482566+00:00",
+      "exit_code": 0,
+      "seconds": 2912.587884132,
+      "log": "submission/evidence/nb4-4.log"
+    },
+    {
+      "stage": "nb5",
+      "started_utc": "2026-10-07T07:53:03.508459+00:00",
+      "script_sha256": "36333d23c8fcc95cf1cda31c8d254df0c34ada8c63781961bf1b256b0fc76f8b",
+      "finished_utc": "2026-10-07T08:03:50.187783+00:00",
+      "exit_code": 0,
+      "seconds": 646.7228855210005,
+      "log": "submission/evidence/nb5-5.log"
+    },
+    {
+      "stage": "nb6",
+      "started_utc": "2026-10-07T08:03:50.195469+00:00",
+      "script_sha256": "f8fc21afb1f867c9ee1ed4431d28e4c3a69399b707d779f0d10a54b15293bcb3",
+      "finished_utc": "2026-10-07T08:09:24.418939+00:00",
+      "exit_code": 0,
+      "seconds": 334.24461325099946,
+      "log": "submission/evidence/nb6-6.log"
+    }
+  ],
+  "baseline_frozen_sha256": "9554d8b3108485088ad6ff6d06f15d803317aef534e17b260eb815dcae9e68e1",
+  "baseline_frozen_utc": "2026-10-07T06:47:01.982954+00:00"
+}

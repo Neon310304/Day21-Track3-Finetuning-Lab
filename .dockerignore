@@ -1,0 +1,14 @@
+.git
+.env
+.env.local
+.venv*
+**/__pycache__
+.pytest_cache
+adapters
+results
+data/split
+submission/evidence
+submission/*.zip
+.cache
+hf_cache
+*.token

@@ -7,6 +7,16 @@
 được chính model đó khi đã được prompt tử tế. Nếu không chứng minh được, phát hiện ra
 điều đó cũng được tính điểm đầy đủ.
 
+## Bài làm Trần Quốc Vương — 2A202602522
+
+- Báo cáo và số đo của máy tác giả: [submission/REPORT.md](submission/REPORT.md).
+- Cách chạy lại Linux/CUDA trên máy sạch: [submission/REPRODUCE.md](submission/REPRODUCE.md).
+- Checklist và evidence: [submission/CHECKLIST.md](submission/CHECKLIST.md), `submission/evidence/` và `results/`.
+- Prompt triển khai: [IMPLEMENTATION_PROMPT.md](IMPLEMENTATION_PROMPT.md).
+- Model được chọn: `Qwen/Qwen3.5-0.8B`, recipe LAPTOP trên GPU 4 GiB; không cần API key. Dependency local được pin trong `requirements-local-gpu.txt`.
+
+Phần bên dưới giữ hướng dẫn gốc của lab. Các số T4 trong docs upstream **không phải** số benchmark của bài làm này.
+
 ---
 
 ## Hai câu hỏi lab bắt bạn trả lời

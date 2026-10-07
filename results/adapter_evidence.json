@@ -1,0 +1,34 @@
+{
+  "correct": {
+    "bytes": 43340856,
+    "tensor_count": 372,
+    "dtypes": {
+      "F32": 372
+    },
+    "saved_numel": 10822656
+  },
+  "attn_only": {
+    "bytes": 43293904,
+    "tensor_count": 24,
+    "dtypes": {
+      "F32": 24
+    },
+    "saved_numel": 10822656
+  },
+  "wrong_lr": {
+    "bytes": 43340856,
+    "tensor_count": 372,
+    "dtypes": {
+      "F32": 372
+    },
+    "saved_numel": 10822656
+  },
+  "qlora": {
+    "bytes": 21695720,
+    "tensor_count": 372,
+    "dtypes": {
+      "BF16": 372
+    },
+    "saved_numel": 10822656
+  }
+}

@@ -109,8 +109,11 @@ def run_contrast(key: str) -> dict:
     row = train.summarize_run(spec, TIER, targets, trainable, elapsed, generate.peak_vram_gb())
     row["final_loss"] = round(res.training_loss, 4)
     row["max_steps"] = max_steps
+    row["actual_optimizer_steps"] = trainer.state.global_step
+    row["observed_trainable_params"] = sum(parameter.numel() for parameter in trainer.model.parameters() if parameter.requires_grad)
     row["teaches"] = spec.teaches
     report.append_row(row, results_dir=ROOT / "results")
+    report.write_json(trainer.state.log_history, "training_" + key + ".json", results_dir=ROOT / "results")
 
     del trainer, model
     generate.free_memory()

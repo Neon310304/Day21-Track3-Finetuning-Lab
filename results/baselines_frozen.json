@@ -1,0 +1,27 @@
+{
+  "tier": "LAPTOP",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "model_revision": null,
+  "precision": "torch.bfloat16",
+  "baseline_a": {
+    "target": 0.0,
+    "regression": 0.6666666666666666,
+    "format": 0.0,
+    "latency_ms": 3030.0934559800094,
+    "n": 50,
+    "extra": {}
+  },
+  "baseline_b": {
+    "target": 0.505,
+    "regression": 0.6666666666666666,
+    "format": 1.0,
+    "latency_ms": 788.0651047799894,
+    "n": 50,
+    "extra": {}
+  },
+  "optimized_prompt_sha": "719e74d3b6232053",
+  "n_target": 50,
+  "n_regression": 15,
+  "eval_limit": null,
+  "smoke_mode": false
+}

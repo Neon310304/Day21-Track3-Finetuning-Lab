@@ -1,0 +1,210 @@
+target=50  regression=15  tier=LAPTOP
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/320 [02:11<11:41:11, 131.88s/it]
+Loading weights:   2%|▎         | 8/320 [02:12<1:03:05, 12.13s/it]  
+Loading weights:   3%|▎         | 9/320 [02:13<53:23, 10.30s/it]  
+Loading weights:   3%|▎         | 11/320 [02:13<36:57,  7.17s/it]
+Loading weights:   4%|▍         | 12/320 [02:14<30:43,  5.99s/it]
+Loading weights:   4%|▍         | 13/320 [02:14<24:58,  4.88s/it]
+Loading weights:   4%|▍         | 14/320 [02:15<20:02,  3.93s/it]
+Loading weights:   7%|▋         | 22/320 [02:16<05:58,  1.20s/it]
+Loading weights:   7%|▋         | 23/320 [02:17<05:40,  1.15s/it]
+Loading weights:   8%|▊         | 26/320 [02:18<04:08,  1.18it/s]
+Loading weights:   8%|▊         | 27/320 [02:18<04:00,  1.22it/s]
+Loading weights:   9%|▉         | 28/320 [02:19<03:58,  1.22it/s]
+Loading weights:  11%|█         | 35/320 [02:21<02:04,  2.28it/s]
+Loading weights:  12%|█▏        | 37/320 [02:21<01:48,  2.62it/s]
+Loading weights:  12%|█▏        | 39/320 [02:22<01:58,  2.37it/s]
+Loading weights:  13%|█▎        | 41/320 [02:23<01:51,  2.51it/s]
+Loading weights:  13%|█▎        | 42/320 [02:24<02:06,  2.21it/s]
+Loading weights:  14%|█▍        | 45/320 [02:24<01:42,  2.68it/s]
+Loading weights:  14%|█▍        | 46/320 [02:26<02:33,  1.79it/s]
+Loading weights:  16%|█▌        | 50/320 [02:26<01:23,  3.23it/s]
+Loading weights:  16%|█▋        | 52/320 [02:27<01:41,  2.65it/s]
+Loading weights:  18%|█▊        | 58/320 [02:27<00:51,  5.12it/s]
+Loading weights:  19%|█▉        | 60/320 [02:29<01:23,  3.10it/s]
+Loading weights:  19%|█▉        | 62/320 [02:30<01:28,  2.90it/s]
+Loading weights:  20%|██        | 64/320 [02:31<01:28,  2.89it/s]
+Loading weights:  20%|██        | 65/320 [02:32<02:06,  2.01it/s]
+Loading weights:  21%|██        | 66/320 [02:33<02:20,  1.81it/s]
+Loading weights:  21%|██        | 67/320 [02:34<02:33,  1.65it/s]
+Loading weights:  22%|██▎       | 72/320 [02:35<01:38,  2.53it/s]
+Loading weights:  24%|██▍       | 76/320 [02:35<01:03,  3.83it/s]
+Loading weights:  24%|██▍       | 78/320 [02:36<01:17,  3.12it/s]
+Loading weights:  25%|██▌       | 80/320 [02:37<01:32,  2.59it/s]
+Loading weights:  25%|██▌       | 81/320 [02:38<01:32,  2.58it/s]
+Loading weights:  27%|██▋       | 86/320 [02:39<01:05,  3.59it/s]
+Loading weights:  28%|██▊       | 90/320 [02:39<00:44,  5.17it/s]
+Loading weights:  29%|██▉       | 92/320 [02:39<00:41,  5.53it/s]
+Loading weights:  29%|██▉       | 93/320 [02:39<00:51,  4.45it/s]
+Loading weights:  29%|██▉       | 94/320 [02:40<00:55,  4.05it/s]
+Loading weights:  30%|██▉       | 95/320 [02:40<01:04,  3.49it/s]
+Loading weights:  31%|███       | 98/320 [02:41<00:53,  4.17it/s]
+Loading weights:  31%|███       | 99/320 [02:41<01:02,  3.55it/s]
+Loading weights:  31%|███▏      | 100/320 [02:42<01:16,  2.88it/s]
+Loading weights:  32%|███▏      | 103/320 [02:42<00:45,  4.77it/s]
+Loading weights:  32%|███▎      | 104/320 [02:42<00:49,  4.39it/s]
+Loading weights:  33%|███▎      | 106/320 [02:43<00:55,  3.84it/s]
+Loading weights:  33%|███▎      | 107/320 [02:43<00:48,  4.36it/s]
+Loading weights:  35%|███▍      | 111/320 [02:44<00:56,  3.70it/s]
+Loading weights:  36%|███▌      | 115/320 [02:45<00:40,  5.07it/s]
+Loading weights:  37%|███▋      | 117/320 [02:45<00:39,  5.18it/s]
+Loading weights:  37%|███▋      | 118/320 [02:46<01:05,  3.07it/s]
+Loading weights:  37%|███▋      | 119/320 [02:47<01:26,  2.33it/s]
+Loading weights:  38%|███▊      | 120/320 [02:48<01:42,  1.95it/s]
+Loading weights:  40%|███▉      | 127/320 [02:51<01:22,  2.33it/s]
+Loading weights:  41%|████      | 131/320 [02:51<01:01,  3.07it/s]
+Loading weights:  41%|████▏     | 132/320 [02:52<01:14,  2.51it/s]
+Loading weights:  42%|████▏     | 133/320 [02:53<01:30,  2.06it/s]
+Loading weights:  42%|████▏     | 134/320 [02:55<01:52,  1.66it/s]
+Loading weights:  44%|████▍     | 140/320 [02:56<01:19,  2.27it/s]
+Loading weights:  45%|████▌     | 145/320 [02:57<00:50,  3.44it/s]
+Loading weights:  46%|████▌     | 146/320 [02:58<01:06,  2.63it/s]
+Loading weights:  46%|████▌     | 147/320 [02:59<01:15,  2.29it/s]
+Loading weights:  46%|████▋     | 148/320 [03:00<01:38,  1.74it/s]
+Loading weights:  47%|████▋     | 151/320 [03:01<01:29,  1.89it/s]
+Loading weights:  48%|████▊     | 152/320 [03:03<01:46,  1.58it/s]
+Loading weights:  48%|████▊     | 153/320 [03:04<02:07,  1.30it/s]
+Loading weights:  49%|████▉     | 156/320 [03:04<01:14,  2.20it/s]
+Loading weights:  49%|████▉     | 157/320 [03:05<01:29,  1.82it/s]
+Loading weights:  50%|████▉     | 159/320 [03:07<01:47,  1.50it/s]
+Loading weights:  50%|█████     | 160/320 [03:07<01:30,  1.78it/s]
+Loading weights:  52%|█████▏    | 167/320 [03:12<01:33,  1.63it/s]
+Loading weights:  52%|█████▎    | 168/320 [03:14<01:56,  1.31it/s]
+Loading weights:  53%|█████▎    | 170/320 [03:16<02:07,  1.18it/s]
+Loading weights:  53%|█████▎    | 171/320 [03:19<02:53,  1.17s/it]
+Loading weights:  54%|█████▍    | 172/320 [03:22<04:00,  1.63s/it]
+Loading weights:  54%|█████▍    | 173/320 [03:25<04:14,  1.73s/it]
+Loading weights:  56%|█████▋    | 180/320 [03:27<01:54,  1.22it/s]
+Loading weights:  57%|█████▋    | 182/320 [03:28<01:39,  1.39it/s]
+Loading weights:  57%|█████▊    | 184/320 [03:28<01:24,  1.60it/s]
+Loading weights:  58%|█████▊    | 185/320 [03:30<01:33,  1.45it/s]
+Loading weights:  58%|█████▊    | 186/320 [03:30<01:37,  1.37it/s]
+Loading weights:  58%|█████▊    | 187/320 [03:32<01:51,  1.19it/s]
+Loading weights:  61%|██████    | 194/320 [03:41<02:24,  1.15s/it]
+Loading weights:  61%|██████▏   | 196/320 [03:45<02:47,  1.35s/it]
+Loading weights:  62%|██████▏   | 198/320 [03:46<02:24,  1.18s/it]
+Loading weights:  62%|██████▎   | 200/320 [03:47<02:01,  1.01s/it]
+Loading weights:  63%|██████▎   | 201/320 [03:48<02:01,  1.02s/it]
+Loading weights:  64%|██████▍   | 204/320 [03:49<01:25,  1.35it/s]
+Loading weights:  64%|██████▍   | 205/320 [03:50<01:31,  1.26it/s]
+Loading weights:  64%|██████▍   | 206/320 [03:52<01:41,  1.12it/s]
+Loading weights:  66%|██████▌   | 210/320 [03:52<00:57,  1.91it/s]
+Loading weights:  66%|██████▌   | 211/320 [03:54<01:08,  1.60it/s]
+Loading weights:  68%|██████▊   | 217/320 [03:54<00:28,  3.58it/s]
+Loading weights:  69%|██████▉   | 220/320 [03:56<00:37,  2.70it/s]
+Loading weights:  69%|██████▉   | 222/320 [03:56<00:34,  2.85it/s]
+Loading weights:  70%|███████   | 224/320 [03:57<00:40,  2.38it/s]
+Loading weights:  70%|███████   | 225/320 [03:58<00:49,  1.92it/s]
+Loading weights:  71%|███████   | 226/320 [04:00<00:59,  1.59it/s]
+Loading weights:  73%|███████▎  | 234/320 [04:02<00:33,  2.61it/s]
+Loading weights:  73%|███████▎  | 235/320 [04:02<00:35,  2.42it/s]
+Loading weights:  74%|███████▍  | 237/320 [04:03<00:31,  2.60it/s]
+Loading weights:  74%|███████▍  | 238/320 [04:04<00:37,  2.22it/s]
+Loading weights:  75%|███████▍  | 239/320 [04:05<00:46,  1.76it/s]
+Loading weights:  75%|███████▌  | 240/320 [04:06<00:47,  1.67it/s]
+Loading weights:  78%|███████▊  | 248/320 [04:07<00:22,  3.16it/s]
+Loading weights:  78%|███████▊  | 249/320 [04:08<00:23,  3.02it/s]
+Loading weights:  78%|███████▊  | 251/320 [04:09<00:25,  2.69it/s]
+Loading weights:  79%|███████▉  | 252/320 [04:12<00:51,  1.32it/s]
+Loading weights:  79%|███████▉  | 253/320 [04:18<01:49,  1.64s/it]
+Loading weights:  79%|███████▉  | 254/320 [04:19<01:42,  1.56s/it]
+Loading weights:  80%|███████▉  | 255/320 [04:19<01:28,  1.36s/it]
+Loading weights:  80%|████████  | 257/320 [04:20<00:59,  1.06it/s]
+Loading weights:  81%|████████  | 258/320 [04:21<01:00,  1.03it/s]
+Loading weights:  81%|████████  | 259/320 [04:22<00:52,  1.16it/s]
+Loading weights:  82%|████████▏ | 263/320 [04:22<00:23,  2.39it/s]
+Loading weights:  83%|████████▎ | 265/320 [04:23<00:22,  2.41it/s]
+Loading weights:  84%|████████▍ | 270/320 [04:23<00:10,  4.67it/s]
+Loading weights:  85%|████████▌ | 273/320 [04:24<00:11,  4.02it/s]
+Loading weights:  86%|████████▌ | 275/320 [04:25<00:12,  3.52it/s]
+Loading weights:  87%|████████▋ | 277/320 [04:25<00:12,  3.58it/s]
+Loading weights:  87%|████████▋ | 278/320 [04:26<00:14,  2.88it/s]
+Loading weights:  87%|████████▋ | 279/320 [04:27<00:16,  2.48it/s]
+Loading weights:  90%|████████▉ | 287/320 [04:28<00:08,  3.91it/s]
+Loading weights:  90%|█████████ | 288/320 [04:28<00:08,  3.75it/s]
+Loading weights:  91%|█████████ | 290/320 [04:29<00:07,  4.15it/s]
+Loading weights:  91%|█████████ | 291/320 [04:30<00:10,  2.88it/s]
+Loading weights:  91%|█████████▏| 292/320 [04:31<00:12,  2.26it/s]
+Loading weights:  92%|█████████▏| 293/320 [04:31<00:12,  2.23it/s]
+Loading weights:  94%|█████████▍| 301/320 [04:32<00:04,  4.51it/s]
+Loading weights:  94%|█████████▍| 302/320 [04:32<00:04,  4.45it/s]
+Loading weights:  95%|█████████▌| 304/320 [04:33<00:03,  4.59it/s]
+Loading weights:  95%|█████████▌| 305/320 [04:33<00:03,  3.99it/s]
+Loading weights:  96%|█████████▌| 306/320 [04:34<00:04,  3.04it/s]
+Loading weights:  96%|█████████▌| 307/320 [04:34<00:04,  2.76it/s]
+Loading weights:  97%|█████████▋| 310/320 [04:35<00:02,  3.64it/s]
+Loading weights:  97%|█████████▋| 311/320 [04:35<00:02,  3.16it/s]
+Loading weights:  98%|█████████▊| 312/320 [04:36<00:02,  3.02it/s]
+Loading weights:  99%|█████████▉| 316/320 [04:36<00:00,  4.87it/s]
+Loading weights:  99%|█████████▉| 318/320 [04:37<00:00,  4.25it/s]
+Loading weights: 100%|██████████| 320/320 [04:37<00:00,  1.15it/s]
+  [(a) base + naive prompt/target] batch 1/13     15s elapsed  ~  180s left
+  [(a) base + naive prompt/target] batch 2/13     26s elapsed  ~  142s left
+  [(a) base + naive prompt/target] batch 3/13     38s elapsed  ~  128s left
+  [(a) base + naive prompt/target] batch 4/13     50s elapsed  ~  112s left
+  [(a) base + naive prompt/target] batch 5/13     61s elapsed  ~   98s left
+  [(a) base + naive prompt/target] batch 6/13     72s elapsed  ~   84s left
+  [(a) base + naive prompt/target] batch 7/13     83s elapsed  ~   71s left
+  [(a) base + naive prompt/target] batch 8/13     95s elapsed  ~   60s left
+  [(a) base + naive prompt/target] batch 9/13    106s elapsed  ~   47s left
+  [(a) base + naive prompt/target] batch 10/13    118s elapsed  ~   35s left
+  [(a) base + naive prompt/target] batch 11/13    129s elapsed  ~   23s left
+  [(a) base + naive prompt/target] batch 12/13    140s elapsed  ~   12s left
+  [(a) base + naive prompt/target] batch 13/13    152s elapsed  ~    0s left
+  [(a) base + naive prompt/target] done: 50 prompts in 152s
+  [(a) base + naive prompt/regression] batch 1/4      8s elapsed  ~   23s left
+  [(a) base + naive prompt/regression] batch 2/4     15s elapsed  ~   15s left
+  [(a) base + naive prompt/regression] batch 3/4     24s elapsed  ~    8s left
+  [(a) base + naive prompt/regression] batch 4/4     31s elapsed  ~    0s left
+  [(a) base + naive prompt/regression] done: 15 prompts in 31s
+(a) base + naive prompt      target=0.000  regression=0.667  format=0.000  3030ms
+  [(b) base + optimized prompt/target] batch 1/13      3s elapsed  ~   40s left
+  [(b) base + optimized prompt/target] batch 2/13      6s elapsed  ~   35s left
+  [(b) base + optimized prompt/target] batch 3/13     10s elapsed  ~   32s left
+  [(b) base + optimized prompt/target] batch 4/13     13s elapsed  ~   28s left
+  [(b) base + optimized prompt/target] batch 5/13     15s elapsed  ~   25s left
+  [(b) base + optimized prompt/target] batch 6/13     18s elapsed  ~   21s left
+  [(b) base + optimized prompt/target] batch 7/13     21s elapsed  ~   18s left
+  [(b) base + optimized prompt/target] batch 8/13     24s elapsed  ~   15s left
+  [(b) base + optimized prompt/target] batch 9/13     28s elapsed  ~   12s left
+  [(b) base + optimized prompt/target] batch 10/13     31s elapsed  ~    9s left
+  [(b) base + optimized prompt/target] batch 11/13     34s elapsed  ~    6s left
+  [(b) base + optimized prompt/target] batch 12/13     37s elapsed  ~    3s left
+  [(b) base + optimized prompt/target] batch 13/13     39s elapsed  ~    0s left
+  [(b) base + optimized prompt/target] done: 50 prompts in 39s
+  [(b) base + optimized prompt/regression] batch 1/4      7s elapsed  ~   22s left
+  [(b) base + optimized prompt/regression] batch 2/4     15s elapsed  ~   15s left
+  [(b) base + optimized prompt/regression] batch 3/4     23s elapsed  ~    8s left
+  [(b) base + optimized prompt/regression] batch 4/4     29s elapsed  ~    0s left
+  [(b) base + optimized prompt/regression] done: 15 prompts in 29s
+(b) base + optimized prompt  target=0.505  regression=0.667  format=1.000  788ms
+{
+  "tier": "LAPTOP",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "model_revision": null,
+  "precision": "torch.bfloat16",
+  "baseline_a": {
+    "target": 0.0,
+    "regression": 0.6666666666666666,
+    "format": 0.0,
+    "latency_ms": 3030.0934559800094,
+    "n": 50,
+    "extra": {}
+  },
+  "baseline_b": {
+    "target": 0.505,
+    "regression": 0.6666666666666666,
+    "format": 1.0,
+    "latency_ms": 788.0651047799894,
+    "n": 50,
+    "extra": {}
+  },
+  "optimized_prompt_sha": "719e74d3b6232053",
+  "n_target": 50,
+  "n_regression": 15,
+  "eval_limit": null,
+  "smoke_mode": false
+}

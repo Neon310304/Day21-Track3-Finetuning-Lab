@@ -1,0 +1,22 @@
+OK full_evaluation
+OK baseline_unchanged
+OK original_data
+OK core_completed
+OK freeze_before_training
+OK stage_sources_unchanged
+OK baseline_a_raw_matches
+OK baseline_b_raw_matches
+OK ft_raw_matches
+OK correct_autopsy_matches
+OK attn_only_autopsy_matches
+OK wrong_lr_autopsy_matches
+OK qlora_autopsy_matches
+OK verdict_matches_raw
+OK actual_equal_step_budget
+OK observed_parameters_match
+OK matched_parameter_budget
+OK before_merge_raw_matches
+OK after_merge_raw_matches
+OK merge_no_regression
+OK hot_swap_two_adapters
+{'ft_wins': 48, 'ft_losses': 0, 'ties': 2}

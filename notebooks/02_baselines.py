@@ -73,8 +73,12 @@ def score_run(model, tok, system_prompt, label):
     return scores, preds, rpreds
 
 
-scores_a, preds_a, _ = score_run(model, tok, generate.NAIVE_PROMPT, "(a) base + naive prompt")
+scores_a, preds_a, regression_a = score_run(model, tok, generate.NAIVE_PROMPT, "(a) base + naive prompt")
 scores_b, preds_b, rpreds_b = score_run(model, tok, generate.OPTIMIZED_PROMPT, "(b) base + optimized prompt")
+report.write_json(
+    {"baseline_a": {"target": preds_a, "regression": regression_a},
+     "baseline_b": {"target": preds_b, "regression": rpreds_b}},
+    "baseline_predictions.json", results_dir=ROOT / "results")
 
 # %% [markdown]
 # ## 3. Đóng băng
@@ -86,6 +90,8 @@ scores_b, preds_b, rpreds_b = score_run(model, tok, generate.OPTIMIZED_PROMPT, "
 frozen = {
     "tier": TIER.name,
     "model": TIER.model_id,
+    "model_revision": getattr(model.config, "_commit_hash", None),
+    "precision": str(next(model.parameters()).dtype),
     "baseline_a": scores_a.as_dict(),
     "baseline_b": scores_b.as_dict(),
     "optimized_prompt_sha": __import__("hashlib").sha256(

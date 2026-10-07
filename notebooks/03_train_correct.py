@@ -172,7 +172,10 @@ row["mask_mode"] = MASK_MODE
 # Record the step budget so NB5/verify can CHECK that the four runs are comparable,
 # instead of trusting that they were configured the same way.
 row["max_steps"] = STEPS
+row["actual_optimizer_steps"] = trainer.state.global_step
+row["observed_trainable_params"] = sum(parameter.numel() for parameter in trainer.model.parameters() if parameter.requires_grad)
 report.append_row(row, results_dir=ROOT / "results")
+report.write_json(trainer.state.log_history, "training_correct.json", results_dir=ROOT / "results")
 print(json.dumps(row, ensure_ascii=False, indent=2))
 
 # %% [markdown]
